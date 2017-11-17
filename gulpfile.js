@@ -1,9 +1,17 @@
 /* Dependencias */
 var gulp = require('gulp');
+const imagemin = require('gulp-imagemin');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var sass = require('gulp-sass');
 var browserSync = require('browser-sync');
+
+/* Comprime imagenes */
+gulp.task('imagenes', () =>
+    gulp.src('source/images/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('build/images'))
+);
 
 /* Actualiza el css en build/css cuando hay cambios en el scss de src/scss */
 gulp.task('css', function () {
@@ -38,6 +46,6 @@ gulp.task('watch-js', ['browserSync'], function () {
 });
 
 /* Build que compila */
-gulp.task('build', ['watch-js', 'css'], function () {
+gulp.task('build', ['watch-js', 'css', 'imagenes'], function () {
     console.log('Gulp se está ejecutando...');
 });
