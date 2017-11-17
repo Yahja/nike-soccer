@@ -1,5 +1,9 @@
-// contenido del archivo 1.js
-
-var sumar = function (g, d) {
-    return g + d;
-};
+// CustomScript //
+$('.btn-intro').click(function () {
+    $('.intro').removeClass('show').addClass('hide');
+    $('.home').removeClass('hide').addClass('show');
+});
+$('.btn-home').click(function () {
+    $('.home').removeClass('show').addClass('hide'); 
+    $('.index').removeClass('hide').addClass('show');
+});

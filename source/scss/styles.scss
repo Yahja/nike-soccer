@@ -1,2 +1,67 @@
 @import '_bootstrap.scss';
 @import 'animate.min.scss';
+@import 'fonts.scss';
+@import 'fontawesome/font-awesome.scss';
+
+$black: #000000;
+$white: #ffffff;
+/* Fonts */
+$nikefont:  TradeGothicforCnd18, sans-serif;
+$nikefontBold: TradeGothicBldCnd20, sans-serif;
+$nikefontLight: TradeGothicforNike365-Light, sans-serif;
+
+
+/* Custom CSS */
+body{
+    background-color: $white;
+    font-family: $nikefont;
+    color: $white;
+    .home, .intro, .index{
+        background-color: $black;
+        max-width: 3840px;
+        width: 100%;
+        min-height: 1912px;
+        height: auto;
+        max-height: 2160px;
+        h1{
+            color: $white;
+            font-family: $nikefontBold;
+            font-size: 36em;
+            text-transform: uppercase;
+            text-align: center;
+            padding-bottom: 100%;
+            margin-top: 20%;
+            // vertical-align: middle;
+
+        }
+    }
+    .index{
+        background: $white;
+        h1{
+            color: $black;
+            text-align: center;
+            font-size: 12em;
+            margin-top: 50px;
+            padding-bottom: 0px;
+        }
+        .menu-silos, .menu-global{
+            max-width: 3840px;
+            width: 100%;
+            height: 50%;
+            padding: 0px;
+            margin: 0px;
+            max-height: 1080px;
+            overflow: hidden;
+        }
+        .menu-global{
+            background-color: #cccccc;
+            .prev, .cerrar, .next{
+                text-align: center;
+                .fa{
+                    font-size: 24em;
+                    padding: 41% 0px;
+                }
+            }
+        }
+    }
+}
