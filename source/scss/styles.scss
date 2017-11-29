@@ -119,4 +119,28 @@ body{
             line-height: 5rem;
         }
     }
+    .mercurial-player{
+        max-width: 3840px;
+        width: 100%;
+        background-image: url('../images/mercurial-jugador.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 2rem;
+        max-height: 1080px;
+        h3{
+            font-family: $nikefontBold;
+            font-size: 7em;
+            text-transform: uppercase;
+            color: $black;
+        }
+        p{
+            color: $black;
+            font-size: 4em;
+        }
+        span{
+            color: $black;
+            font-size: 3em;
+            margin-bottom: 20em;
+        }
+    }
 }
