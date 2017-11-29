@@ -2,6 +2,7 @@
 @import 'animate.min.scss';
 @import 'fonts.scss';
 @import 'fontawesome/font-awesome.scss';
+@import 'animaciones.scss';
 
 $black: #000000;
 $white: #ffffff;
@@ -65,6 +66,15 @@ body{
             .box-model{
                 display: flex;
                 justify-content: space-around;
+                .btn-hypervenom{
+                    animation-delay: 0.5s;
+                }
+                .btn-magista{
+                    animation-delay: 1s;
+                }
+                .btn-tiempo{
+                    animation-delay: 1.5s;
+                }
             }
             .texto-model{
                 display: flex;

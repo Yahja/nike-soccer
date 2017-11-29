@@ -24,7 +24,5 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^3.0.0"
   },
-  "dependencies": {
-    "motion-ui": "^1.2.3"
-  }
+  "dependencies": {}
 }
