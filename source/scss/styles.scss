@@ -23,7 +23,7 @@ body{
     .no-padding{
         padding: 0px;
     }
-    .home, .intro, .index{
+    .home, .intro, .index, .selecc-pasto{
         background-color: $black;
         max-width: 3840px;
         width: 100%;
@@ -39,7 +39,33 @@ body{
             padding-bottom: 100%;
             margin-top: 20%;
             // vertical-align: middle;
-
+        }
+    }
+    .intro{
+        .btn-intro{
+            width: 100%;
+            float: left;
+            video{
+                width: 100%;
+            }
+        }
+    }
+    .selecc-pasto{
+        padding-top: 20em;
+        .pasto-sintetico{
+            background-image: url('../images/bg-pasto-sintetico.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 830px;
+        }
+        .pasto-natural{
+            background-image: url('../images/bg-pasto-natural.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 830px;
+        }
+        h1{
+            font-size: 12em;
         }
     }
     .index{
@@ -131,9 +157,9 @@ body{
         background: $redfire;
         max-width: 3840px;
         width: 100%;
-        max-height: 1080px;
+        max-height: 1090px;
         height: 100%;
-        padding-top: 80px;
+        padding-top: 40px;
         padding-bottom: 1rem;
         .image-model{
             display: flex;

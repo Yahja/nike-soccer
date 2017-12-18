@@ -5,7 +5,13 @@ $('.btn-intro').click(function () {
     $('.title-home').addClass('animated fadeIn');
 });
 $('.btn-home').click(function () {
-    $('.home').removeClass('show').addClass('hide'); 
+    $('.home').removeClass('show').addClass('hide');
+    $('.selecc-pasto').removeClass('hide').addClass('show');
+    $('.pasto-sintetico').addClass('animated fadeIn');
+    $('.pasto-natural').addClass('animated fadeIn');
+});
+$('.pasto-natural').click(function () {
+    $('.selecc-pasto').removeClass('show').addClass('hide'); 
     $('.index').removeClass('hide').addClass('show');
     $('.btn-mercurial').addClass('animated fadeIn');
     $('.btn-hypervenom').addClass('animated fadeIn');
