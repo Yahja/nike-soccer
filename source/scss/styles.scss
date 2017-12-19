@@ -148,7 +148,7 @@ body{
         .prev, .cerrar, .next{
             text-align: center;
             i{
-                font-size: 8em;
+                font-size: 24em;
                 padding: 41% 0px;
             }
         }
@@ -285,6 +285,113 @@ body{
         max-height: 1080px;
         height: 100%;
         background-image: url('../images/mercurial-jugador.jpg');
+        background-repeat: no-repeat;
+        padding: 4rem 0px;
+        .zapatilla-final{
+            margin-bottom: 2rem;
+        }
+    }
+    /* HYPERVENOM */
+    .hypervenom-player{
+        max-width: 3840px;
+        width: 100%;
+        background-image: url('../images/hypervenom-jugador.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        max-height: 1080px;
+        .logo-mercurial-player{
+            margin: 3rem 0px 0px 0px;
+        }
+        h3{
+            font-family: $nikefontBold;
+            font-size: 7em;
+            text-transform: uppercase;
+            color: $black;
+            margin-top: 3rem;
+        }
+        p{
+            color: $black;
+            font-size: 4em;
+            margin-top: 1rem;
+        }
+        span{
+            color: $black;
+            font-size: 3em;
+            margin-bottom: 20em;
+        }
+    }
+    .hypervenom-spec{
+        background-image: url('../images/hypervenom-spec.jpg');
+        background-size: 73%;
+        background-position: 50% -14%;
+        background-repeat: no-repeat;
+        max-height: 1080px;
+        height: 100%;
+        max-width: 3840px;
+        background-color: #BF071C;
+        .image-model{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+        }
+        .logo-spec{
+            margin-top: 40px;
+            margin-bottom: 0px;
+            // .logo-mercurial{
+            //     animation-delay: 0.8s;
+            // }
+        }
+        h1{
+            font-size: 12rem;
+            color: $black;
+            text-align: center;
+            font-family: $nikefontBold;
+        }
+        h3{
+            font-size: 6rem;
+            margin-top: 7rem;
+            color: $black;
+            font-family: $nikefontBold;
+            margin-bottom: 12rem;
+        }
+    }
+    .hypervenom-video{
+        max-width: 3840px;
+        max-height: 1080px;
+        height: 100%;
+        .hypervenom-logo-video{
+            margin-bottom: 3rem;
+        }
+        h1{
+            font-size: 12rem;
+            text-transform: uppercase;
+            // margin-top: 10rem;
+        }
+        p{
+            font-size: 7rem;
+            color: $verdenike;
+        }
+        h3{
+            font-size: 12rem;
+            text-transform: uppercase;
+            // margin-top: 5rem;
+        }
+    }
+    .hypervenom-timer{
+        max-width: 3840px;
+        max-height: 1080px;
+        height: 100%;
+    }
+    .countdown{
+        margin-top: 13rem;
+    }
+    .hypervenom-final{
+        max-width: 3840px;
+        max-height: 1080px;
+        height: 100%;
+        background-image: url('../images/hypervenom-jugador.jpg');
         background-repeat: no-repeat;
         padding: 4rem 0px;
         .zapatilla-final{
