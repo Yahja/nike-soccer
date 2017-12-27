@@ -129,7 +129,7 @@ $('.prev-magista-final').click(function () {
     $('.menu-magista-counter').removeClass('hide').addClass('show');
     $('.menu-magista-final').removeClass('show').addClass('hide');
 });
-/** VUELVE A MAGISTA COUNTER */
+/** VUELVE A INICIO */
 $('.next-magista-final').click(function () {
     $('.intro').removeClass('hide').addClass('show');
     $('.magista-final').removeClass('show').addClass('hide');
