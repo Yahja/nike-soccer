@@ -25,19 +25,19 @@ body{
     }
     .home, .intro, .index, .selecc-pasto{
         background-color: $black;
-        max-width: 3840px;
+        max-width: 2048px;
         width: 100%;
-        min-height: 1912px;
+        min-height: 576px;
         height: auto;
-        max-height: 2160px;
+        max-height: 576px;
         h1{
             color: $white;
             font-family: $nikefontBold;
-            font-size: 36em;
+            font-size: 15rem;
             text-transform: uppercase;
             text-align: center;
             padding-bottom: 100%;
-            margin-top: 20%;
+            margin-top: 10%;
             // vertical-align: middle;
         }
     }
@@ -51,26 +51,28 @@ body{
         }
     }
     .selecc-pasto{
-        padding-top: 20em;
+        padding-top: 5em;
         .pasto-sintetico{
             background-image: url('../images/bg-pasto-sintetico.jpg');
             background-repeat: no-repeat;
             background-size: cover;
-            height: 830px;
+            height: 330px;
         }
         .pasto-natural{
             background-image: url('../images/bg-pasto-natural.jpg');
             background-repeat: no-repeat;
             background-size: cover;
-            height: 830px;
+            height: 330px;
         }
         h1{
-            font-size: 12em;
+            font-size: 7rem;
+            padding-bottom: 0px;
+            margin-top: 15%;
         }
     }
     .index{
         background: $white;
-        min-height: 2050px;
+        min-height: 576px;
         h1{
             color: $black;
             text-align: center;
@@ -81,15 +83,16 @@ body{
             line-height: 5rem;
         }
         .menu-silos{
-            max-width: 3840px;
+            max-width: 2048px;
             width: 100%;
-            max-height: 1765px;
+            // max-height: 800px;
             height: 100%;
             padding: 0px;
             margin: 0px;
             background-image: url('../images/bg-nikehome.jpg');
             background-size: cover;
             background-repeat: no-repeat;
+            background-position: 0% 131%;
             // background-color: $grey;
             span.bajada{
                 color: $black;
@@ -101,7 +104,7 @@ body{
             .box-model{
                 display: flex;
                 justify-content: space-around;
-                margin-top: 15rem;
+                margin-top: 0rem;
                 .model{
                     padding: 0px;
                 }
@@ -119,10 +122,10 @@ body{
                 display: flex;
                 justify-content: space-around;
                 background-color: $white;
-                margin-top: 20rem;
-                padding-top: 0px;
+                margin-top: 2rem;
+                // padding-top: 0px;
                 h2{
-                    font-size: 5em;
+                    font-size: 3em;
                     text-align: center;
                     text-transform: uppercase;
                     color: $black;
@@ -130,7 +133,7 @@ body{
                 }
                 span{
                     color: $black;
-                    font-size: 3em;
+                    font-size: 2em;
                     text-align: center;
                     font-family: Arial, Helvetica, sans-serif;
                 }
@@ -139,8 +142,8 @@ body{
     }
     .menu-global{
         background-color: $white;
-        height: 50%;
-        position: absolute;
+        height: 576px;
+        // position: absolute;
         bottom: 0px;
         left: 0px;
         right: 0px;
@@ -155,9 +158,10 @@ body{
     }
     .mercurial, .hypervenom, .magista, .tiempo{
         background: $redfire;
-        max-width: 3840px;
+        max-width: 2048px;
         width: 100%;
         max-height: 1090px;
+        min-height: 576px;
         height: 100%;
         padding-top: 40px;
         padding-bottom: 1rem;
@@ -184,33 +188,35 @@ body{
         }
     }
     .mercurial-player{
-        max-width: 3840px;
+        max-width: 2048px;
         width: 100%;
         background-image: url('../images/mercurial-jugador.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 2rem;
         padding-bottom: 1rem;
-        max-height: 1080px;
+        max-height: 576px;
+        min-height: 576px;
         .logo-mercurial-player{
             margin: 3rem 0px 0px 0px;
         }
         h3{
             font-family: $nikefontBold;
-            font-size: 7em;
+            font-size: 4em;
             text-transform: uppercase;
             color: $black;
             margin-top: 3rem;
+            margin-bottom: 3rem;
         }
         p{
             color: $black;
-            font-size: 4em;
+            font-size: 3em;
             margin-top: 1rem;
+            line-height: 3rem;
         }
         span{
             color: $black;
-            font-size: 3em;
-            margin-bottom: 20em;
+            font-size: 2em;
         }
     }
     .mercurial-spec{
@@ -218,108 +224,118 @@ body{
         background-size: 73%;
         background-position: 50% -14%;
         background-repeat: no-repeat;
-        max-height: 1080px;
+        max-height: 576px;
         height: 100%;
-        max-width: 3840px;
+        max-width: 2048px;
         background-color: #BF071C;
+        min-height: 576px;
         .image-model{
             display: flex;
             justify-content: center;
             height: 100%;
         }
         .logo-spec{
-            margin-top: 40px;
+            margin-top: 2rem;
             margin-bottom: 0px;
             // .logo-mercurial{
             //     animation-delay: 0.8s;
             // }
         }
         h1{
-            font-size: 12rem;
+            font-size: 6rem;
             color: $black;
             text-align: center;
             font-family: $nikefontBold;
         }
         h3{
-            font-size: 6rem;
+            font-size: 4rem;
             margin-top: 6rem;
             color: $black;
             font-family: $nikefontBold;
-            margin-bottom: 12rem;
+            margin-bottom: 16rem;
         }
     }
     .mercurial-video{
-        max-width: 3840px;
-        max-height: 1080px;
+        max-width: 2048px;
+        max-height: 576px;
         height: 100%;
+        min-height: 576px;
+        video{
+            width: 100%;
+        }
         .mercurial-logo-video{
             margin-bottom: 3rem;
         }
         h1{
-            font-size: 12rem;
+            font-size: 7rem;
             text-transform: uppercase;
             // margin-top: 10rem;
         }
         p{
-            font-size: 7rem;
+            font-size: 4rem;
             color: $verdenike;
         }
         h3{
-            font-size: 12rem;
+            font-size: 6rem;
             text-transform: uppercase;
             // margin-top: 5rem;
         }
     }
     .mercurial-timer{
-        max-width: 3840px;
-        max-height: 1080px;
+        max-width: 2048px;
+        max-height: 576px;
         height: 100%;
+        min-height: 576px;
+        video{
+            width: 100%;
+        }
     }
     h1{
-        font-size: 12rem;
+        font-size: 7rem;
         text-transform: uppercase;
         // margin-top: 10rem;
     }
     .mercurial-final{
-        max-width: 3840px;
-        max-height: 1080px;
+        max-width: 2048px;
+        max-height: 576px;
         height: 100%;
         background-image: url('../images/mercurial-jugador.jpg');
         background-repeat: no-repeat;
         padding: 4rem 0px;
+        min-height: 576px;
         .zapatilla-final{
             margin-bottom: 2rem;
         }
     }
     /* HYPERVENOM */
     .hypervenom-player{
-        max-width: 3840px;
+        max-width: 2048px;
         width: 100%;
         background-image: url('../images/hypervenom-jugador.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 2rem;
         padding-bottom: 1rem;
-        max-height: 1080px;
+        min-height: 576px;
         .logo-mercurial-player{
             margin: 3rem 0px 0px 0px;
         }
         h3{
             font-family: $nikefontBold;
-            font-size: 7em;
+            font-size: 4em;
             text-transform: uppercase;
             color: $black;
             margin-top: 3rem;
         }
         p{
             color: $black;
-            font-size: 4em;
-            margin-top: 1rem;
+            font-size: 2.5em;
+            margin-top: 3rem;
+            line-height: 3rem;
         }
         span{
             color: $black;
-            font-size: 3em;
-            margin-bottom: 20em;
+            font-size: 1.5em;
         }
     }
     .hypervenom-spec{
@@ -327,9 +343,10 @@ body{
         background-size: 73%;
         background-position: 50% -14%;
         background-repeat: no-repeat;
-        max-height: 1080px;
+        max-height: 576px;
         height: 100%;
-        max-width: 3840px;
+        max-width: 2048px;
+        min-height: 576px;
         background-color: #BF071C;
         .image-model{
             display: flex;
@@ -344,58 +361,234 @@ body{
             // }
         }
         h1{
-            font-size: 12rem;
+            font-size: 6rem;
             color: $black;
             text-align: center;
             font-family: $nikefontBold;
         }
         h3{
-            font-size: 6rem;
-            margin-top: 7rem;
+            font-size: 4rem;
+            margin-top: 5rem;
             color: $black;
             font-family: $nikefontBold;
-            margin-bottom: 12rem;
+            margin-bottom: 18rem;
+        }
+        .bajada-spec-left, .bajada-spec-right{
+            margin-bottom: 0px;
         }
     }
     .hypervenom-video{
-        max-width: 3840px;
-        max-height: 1080px;
+        max-width: 2048px;
+        max-height: 576px;
         height: 100%;
+        min-height: 576px;
+        video{
+            width: 100%;
+        }
         .hypervenom-logo-video{
             margin-bottom: 3rem;
         }
         h1{
-            font-size: 12rem;
+            font-size: 7rem;
             text-transform: uppercase;
             // margin-top: 10rem;
         }
         p{
-            font-size: 7rem;
+            font-size: 4rem;
             color: $verdenike;
         }
         h3{
-            font-size: 12rem;
+            font-size: 6rem;
             text-transform: uppercase;
             // margin-top: 5rem;
         }
     }
     .hypervenom-timer{
-        max-width: 3840px;
-        max-height: 1080px;
+        max-width: 2048px;
+        max-height: 576px;
         height: 100%;
+        min-height: 576px;
+        video{
+            width: 100%;
+        }
+        h1{
+            font-size: 7rem;
+            text-transform: uppercase;
+            // margin-top: 10rem;
+        }
     }
     .countdown{
         margin-top: 13rem;
     }
     .hypervenom-final{
-        max-width: 3840px;
-        max-height: 1080px;
+        max-width: 2048px;
+        max-height: 576px;
         height: 100%;
         background-image: url('../images/hypervenom-jugador.jpg');
         background-repeat: no-repeat;
         padding: 4rem 0px;
+        min-height: 576px;
+        background-size: cover;
         .zapatilla-final{
             margin-bottom: 2rem;
+        }
+    }
+    /* MAGISTA */
+    .magista-player{
+        max-width: 2048px;
+        width: 100%;
+        background-image: url('../images/magista-jugador.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 1rem;
+        min-height: 576px;
+        height: 576px;
+        .logo-magista-player{
+            margin: 1rem 0px 0px 0px;
+        }
+        h3{
+            font-family: $nikefontBold;
+            font-size: 4em;
+            text-transform: uppercase;
+            color: $black;
+            margin-top: 3rem;
+        }
+        p{
+            color: $black;
+            font-size: 2.5em;
+            margin-top: 1rem;
+            line-height: 3rem;
+        }
+        span{
+            color: $black;
+            font-size: 1.5em;
+        }
+    }
+    .magista-spec{
+        background-image: url('../images/magista-spec.jpg');
+        background-size: 73%;
+        background-position: 50% -14%;
+        background-repeat: no-repeat;
+        max-height: 576px;
+        height: 100%;
+        max-width: 2048px;
+        min-height: 576px;
+        background-color: #BF071C;
+        .image-model{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+        }
+        .logo-spec{
+            margin-top: 40px;
+            margin-bottom: 0px;
+            // .logo-mercurial{
+            //     animation-delay: 0.8s;
+            // }
+        }
+        h1{
+            font-size: 6rem;
+            color: $black;
+            text-align: center;
+            font-family: $nikefontBold;
+        }
+        h3{
+            font-size: 4rem;
+            margin-top: 5rem;
+            color: $black;
+            font-family: $nikefontBold;
+            // margin-bottom: 18rem;
+        }
+        .bajada-spec-left, .bajada-spec-right{
+            margin-bottom: 0px;
+            margin-top: 10rem;
+        }
+    }
+    .magista-video{
+        max-width: 2048px;
+        max-height: 576px;
+        height: 100%;
+        min-height: 576px;
+        video{
+            width: 100%;
+        }
+        .magista-logo-video{
+            margin-bottom: 3rem;
+        }
+        h1{
+            font-size: 7rem;
+            text-transform: uppercase;
+            // margin-top: 10rem;
+        }
+        p{
+            font-size: 4rem;
+            color: $verdenike;
+        }
+        h3{
+            font-size: 6rem;
+            text-transform: uppercase;
+            // margin-top: 5rem;
+        }
+    }
+    .magista-timer{
+        max-width: 2048px;
+        max-height: 576px;
+        height: 100%;
+        min-height: 576px;
+        video{
+            width: 100%;
+        }
+        h1{
+            font-size: 7rem;
+            text-transform: uppercase;
+            // margin-top: 10rem;
+        }
+    }
+    .countdown{
+        margin-top: 13rem;
+    }
+    .magista-final{
+        max-width: 2048px;
+        max-height: 576px;
+        height: 100%;
+        background-image: url('../images/magista-jugador.jpg');
+        background-repeat: no-repeat;
+        padding: 4rem 0px;
+        min-height: 576px;
+        background-size: cover;
+        .zapatilla-final{
+            margin-bottom: 2rem;
+        }
+    }
+    /* TIEMPO */
+    .tiempo-player{
+        max-width: 2048px;
+        width: 100%;
+        background-image: url('../images/tiempo-jugador.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 1rem;
+        min-height: 576px;
+        height: 576px;
+        .logo-tiempo-player{
+            margin: 1rem 0px 0px 0px;
+        }
+        h3{
+            font-family: $nikefontBold;
+            font-size: 4em;
+            text-transform: uppercase;
+            color: $black;
+            margin-top: 3rem;
+        }
+        p{
+            color: $black;
+            font-size: 2.5em;
+            margin-top: 1rem;
+            line-height: 3rem;
+        }
+        span{
+            color: $black;
+            font-size: 1.5em;
         }
     }
 }
