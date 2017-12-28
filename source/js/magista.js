@@ -1,14 +1,13 @@
 /** MAGISTA */
 $(".btn-magista").click(function () {
     $(".magista").removeClass("hide").addClass("show");
-    $(".menu-global").removeClass("hide").addClass("show");
     $(".index").removeClass("show").addClass("hide");
     $('.magista-left').addClass('animated bounceInLeft');
     $('.magista-right').addClass('animated bounceInRight');
     $('.logo-magista').addClass('animated bounceIn');
-    $('.menu-global').removeClass('show').addClass('hide');
     $('.menu-magista-home').removeClass('hide').addClass('show');
 });
+
 /** JUGADOR MAGISTA */
 $('.next-magista').click(function () {
     $('.magista').removeClass('show').addClass('hide');
@@ -134,4 +133,59 @@ $('.next-magista-final').click(function () {
     $('.intro').removeClass('hide').addClass('show');
     $('.magista-final').removeClass('show').addClass('hide');
     $('.menu-magista-final').removeClass('show').addClass('hide');
+});
+
+/** MAGISTA SINTETICO */
+$(".btn-magista-sintetico").click(function () {
+    $(".magista-sintetico").removeClass("hide").addClass("show");
+    $(".index-sintetico").removeClass("show").addClass("hide");
+    $('.magista-left').addClass('animated bounceInLeft');
+    $('.magista-right').addClass('animated bounceInRight');
+    $('.logo-magista').addClass('animated bounceIn');
+    $('.menu-magista-home-sintetico').removeClass('hide').addClass('show');
+});
+
+/** JUGADOR MAGISTA SINTETICO */
+$('.next-magista-sintetico').click(function () {
+    $('.magista-sintetico').removeClass('show').addClass('hide');
+    $('.magista-player').removeClass('hide').addClass('show');
+    $('.menu-magista-home-sintetico').removeClass('show').addClass('hide');
+    $('.logo-magista-player').addClass('animated fadeInDown');
+    $('.magista-player p').addClass('animated fadeInDown');
+    $('.subtitle').addClass('animated fadeInDown');
+    $('.magista-player h3').addClass('animated fadeInDown');
+    $('.menu-magista-player-sintetico').removeClass('hide').addClass('show');
+});
+/** BACK MAGISTA SINTETICO */
+$('.prev-magista-sintetico').click(function () {
+    $('.magista-sintetico').addClass('hide').removeClass('show');
+    $('.menu-magista-home-sintetico').addClass('hide').removeClass('show');
+    $('.index').removeClass('hide').addClass('show');
+    $('.btn-mercurial-sintetico').addClass('animated fadeIn');
+    $('.btn-hypervenom-sintetico').addClass('animated fadeIn');
+    $('.btn-magista-sintetico').addClass('animated fadeIn');
+    $('.btn-tiempo-sintetico').addClass('animated fadeIn');
+});
+/* VUELVE AL HOME MAGISTA SINTETICO */
+$(".prev-magista-player-sintetico").click(function () {
+    $(".magista-sintetico").removeClass("hide").addClass("show");
+    $(".menu-magista-home-sintetico").removeClass("hide").addClass("show");
+    // $(".index").removeClass("show").addClass("hide");
+    $(".magista-left-sintetico").addClass("animated bounceInLeft");
+    $(".magista-right-sintetico").addClass("animated bounceInRight");
+    $(".logo-magista").addClass("animated bounceIn");
+    $(".magista-player").removeClass("show").addClass("hide");
+    $(".menu-magista-player-sintetico").removeClass("show").addClass("hide");
+});
+/* SIGUENTE EN MAGISTA PLAYER SINTETICO */
+$('.next-magista-player-sintetico').click(function () {
+    $('.magista-player').removeClass('show').addClass('hide');
+    $('.magista-spec-sintetico').removeClass('hide').addClass('show animated fadeIn');
+    $('.menu-magista-player-sintetico').addClass('hide').removeClass('show');
+    $('.menu-magista-spec-sintetico').addClass('show').removeClass('hide');
+    $('.logo-spec').addClass('animated zoomIn');
+    $('.titulo-spec').addClass('animated fadeInDown');
+    $('.subt-spec').addClass('animated fadeInLeft');
+    $('.bajada-spec-left').addClass('animated fadeInLeft');
+    $('.bajada-spec-right').addClass('animated fadeInRight');
 });

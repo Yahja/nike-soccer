@@ -136,3 +136,58 @@ $('.next-hypervenom-final').click(function () {
     $('.hypervenom-final').removeClass('show').addClass('hide');
     $('.menu-hypervenom-final').removeClass('show').addClass('hide');
 });
+
+
+/** HYPERVENOM SINTETICO */
+$(".btn-hypervenom-sintetico").click(function () {
+    $(".hypervenom-sintetico").removeClass("hide").addClass("show");
+    $(".index-sintetico").removeClass("show").addClass("hide");
+    $('.hypervenom-left').addClass('animated bounceInLeft');
+    $('.hypervenom-right').addClass('animated bounceInRight');
+    $('.logo-hypervenom').addClass('animated bounceIn');
+    $('.menu-hypervenom-home-sintetico').removeClass('hide').addClass('show');
+});
+/** JUGADOR HYPERVENOM SINTETICO */
+$('.next-hypervenom-sintetico').click(function () {
+    $('.hypervenom-sintetico').removeClass('show').addClass('hide');
+    $('.hypervenom-player').removeClass('hide').addClass('show');
+    $('.menu-hypervenom-home-sintetico').removeClass('show').addClass('hide');
+    $('.logo-hypervenom-player').addClass('animated fadeInDown');
+    $('.hypervenom-player p').addClass('animated fadeInDown');
+    $('.subtitle').addClass('animated fadeInDown');
+    $('.hypervenom-player h3').addClass('animated fadeInDown');
+    $('.menu-hypervenom-player-sintetico').removeClass('hide').addClass('show');
+});
+/** BACK HYPERVENOM */
+$('.prev-hypervenom-sintetico').click(function () {
+    $('.hypervenom-sintetico').addClass('hide').removeClass('show');
+    $('.menu-hypervenom-home-sintetico').addClass('hide').removeClass('show');
+    $('.index-sintetico').removeClass('hide').addClass('show');
+    $('.btn-mercurial-sintetico').addClass('animated fadeIn');
+    $('.btn-hypervenom-sintetico').addClass('animated fadeIn');
+    $('.btn-magista-sintetico').addClass('animated fadeIn');
+    $('.btn-tiempo-sintetico').addClass('animated fadeIn');
+});
+/* VUELVE AL HOME HYPERVENOM SINTETICO*/
+$(".prev-hypervenom-player-sintetico").click(function () {
+    $(".hypervenom-sintetico").removeClass("hide").addClass("show");
+    $(".menu-hypervenom-home-sintetico").removeClass("hide").addClass("show");
+    // $(".index").removeClass("show").addClass("hide");
+    $(".hypervenom-left").addClass("animated bounceInLeft");
+    $(".hypervenom-right").addClass("animated bounceInRight");
+    $(".logo-hypervenom").addClass("animated bounceIn");
+    $(".hypervenom-player").removeClass("show").addClass("hide");
+    $(".menu-hypervenom-player").removeClass("show").addClass("hide");
+});
+/* SIGUENTE EN HYPERVENOM PLAYER */
+$('.next-hypervenom-player-sintetico').click(function () {
+    $('.hypervenom-player').removeClass('show').addClass('hide');
+    $('.hypervenom-spec-sintetico').removeClass('hide').addClass('show animated fadeIn');
+    $('.menu-hypervenom-player-sintetico').addClass('hide').removeClass('show');
+    $('.menu-hypervenom-spec-sintetico').addClass('show').removeClass('hide');
+    $('.logo-spec').addClass('animated zoomIn');
+    $('.titulo-spec').addClass('animated fadeInDown');
+    $('.subt-spec').addClass('animated fadeInLeft');
+    $('.bajada-spec-left').addClass('animated fadeInLeft');
+    $('.bajada-spec-right').addClass('animated fadeInRight');
+});

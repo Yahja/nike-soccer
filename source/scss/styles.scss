@@ -20,10 +20,11 @@ body{
     background-color: $black;
     font-family: $nikefont;
     color: $white;
+    // overflow: hidden;
     .no-padding{
         padding: 0px;
     }
-    .home, .intro, .index, .selecc-pasto{
+    .home, .intro, .index, .selecc-pasto, .index-sintetico{
         background-color: $black;
         max-width: 2048px;
         width: 100%;
@@ -70,7 +71,7 @@ body{
             margin-top: 15%;
         }
     }
-    .index{
+    .index, .index-sintetico{
         background: $white;
         min-height: 576px;
         h1{
@@ -108,13 +109,13 @@ body{
                 .model{
                     padding: 0px;
                 }
-                .btn-hypervenom{
+                .btn-hypervenom, .btn-hypervenom-sintetico{
                     animation-delay: 0.5s;
                 }
-                .btn-magista{
+                .btn-magista, .btn-magista-sintetico{
                     animation-delay: 1s;
                 }
-                .btn-tiempo{
+                .btn-tiempo, .btn-tiempo-sintetico{
                     animation-delay: 1.5s;
                 }
             }
@@ -156,11 +157,11 @@ body{
             }
         }
     }
-    .mercurial, .hypervenom, .magista, .tiempo{
+    .mercurial, .hypervenom, .magista, .tiempo, .mercurial-sintetico, .hypervenom-sintetico, .magista-sintetico, .tiempo-sintetico{
         background: $redfire;
         max-width: 2048px;
         width: 100%;
-        max-height: 1090px;
+        max-height: 576px;
         min-height: 576px;
         height: 100%;
         padding-top: 40px;
@@ -254,6 +255,48 @@ body{
             font-family: $nikefontBold;
             margin-bottom: 16rem;
         }
+        .bajada-spec-left, .bajada-spec-right{
+            margin-bottom: 0px;
+        }
+    }
+    .mercurial-spec-sintetico{
+        background-image: url('../images/pasto-sintetico/mercurial-spec.jpg');
+        background-size: 73%;
+        background-position: 50% -14%;
+        background-repeat: no-repeat;
+        max-height: 576px;
+        height: 100%;
+        max-width: 2048px;
+        background-color: #BF071C;
+        min-height: 576px;
+        .image-model{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+        }
+        .logo-spec{
+            margin-top: 2rem;
+            margin-bottom: 0px;
+            // .logo-mercurial{
+            //     animation-delay: 0.8s;
+            // }
+        }
+        h1{
+            font-size: 6rem;
+            color: $black;
+            text-align: center;
+            font-family: $nikefontBold;
+        }
+        h3{
+            font-size: 4rem;
+            margin-top: 6rem;
+            color: $black;
+            font-family: $nikefontBold;
+            margin-bottom: 16rem;
+        }
+        .bajada-spec-left, .bajada-spec-right{
+            margin-bottom: 0px;
+        }
     }
     .mercurial-video{
         max-width: 2048px;
@@ -262,6 +305,7 @@ body{
         min-height: 576px;
         video{
             width: 100%;
+            margin-top: -3rem;
         }
         .mercurial-logo-video{
             margin-bottom: 3rem;
@@ -340,6 +384,45 @@ body{
     }
     .hypervenom-spec{
         background-image: url('../images/hypervenom-spec.jpg');
+        background-size: 73%;
+        background-position: 50% -14%;
+        background-repeat: no-repeat;
+        max-height: 576px;
+        height: 100%;
+        max-width: 2048px;
+        min-height: 576px;
+        background-color: #BF071C;
+        .image-model{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+        }
+        .logo-spec{
+            margin-top: 40px;
+            margin-bottom: 0px;
+            // .logo-mercurial{
+            //     animation-delay: 0.8s;
+            // }
+        }
+        h1{
+            font-size: 6rem;
+            color: $black;
+            text-align: center;
+            font-family: $nikefontBold;
+        }
+        h3{
+            font-size: 4rem;
+            margin-top: 5rem;
+            color: $black;
+            font-family: $nikefontBold;
+            margin-bottom: 18rem;
+        }
+        .bajada-spec-left, .bajada-spec-right{
+            margin-bottom: 0px;
+        }
+    }
+    .hypervenom-spec-sintetico{
+        background-image: url('../images/pasto-sintetico/hypervenom-spec.jpg');
         background-size: 73%;
         background-position: 50% -14%;
         background-repeat: no-repeat;
@@ -504,6 +587,46 @@ body{
             margin-top: 10rem;
         }
     }
+    .magista-spec-sintetico{
+        background-image: url('../images/pasto-sintetico/magista-spec.jpg');
+        background-size: 73%;
+        background-position: 50% -14%;
+        background-repeat: no-repeat;
+        max-height: 576px;
+        height: 100%;
+        max-width: 2048px;
+        min-height: 576px;
+        background-color: #BF071C;
+        .image-model{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+        }
+        .logo-spec{
+            margin-top: 40px;
+            margin-bottom: 0px;
+            // .logo-mercurial{
+            //     animation-delay: 0.8s;
+            // }
+        }
+        h1{
+            font-size: 6rem;
+            color: $black;
+            text-align: center;
+            font-family: $nikefontBold;
+        }
+        h3{
+            font-size: 4rem;
+            margin-top: 5rem;
+            color: $black;
+            font-family: $nikefontBold;
+            // margin-bottom: 18rem;
+        }
+        .bajada-spec-left, .bajada-spec-right{
+            margin-bottom: 0px;
+            margin-top: 10rem;
+        }
+    }
     .magista-video{
         max-width: 2048px;
         max-height: 576px;
@@ -593,6 +716,46 @@ body{
     }
     .tiempo-spec{
         background-image: url('../images/tiempo-spec.jpg');
+        background-size: 73%;
+        background-position: 50% -14%;
+        background-repeat: no-repeat;
+        max-height: 576px;
+        height: 100%;
+        max-width: 2048px;
+        min-height: 576px;
+        background-color: #BF071C;
+        .image-model{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+        }
+        .logo-spec{
+            margin-top: 40px;
+            margin-bottom: 0px;
+            // .logo-mercurial{
+            //     animation-delay: 0.8s;
+            // }
+        }
+        h1{
+            font-size: 6rem;
+            color: $black;
+            text-align: center;
+            font-family: $nikefontBold;
+        }
+        h3{
+            font-size: 4rem;
+            margin-top: 5rem;
+            color: $black;
+            font-family: $nikefontBold;
+            // margin-bottom: 18rem;
+        }
+        .bajada-spec-left, .bajada-spec-right{
+            margin-bottom: 0px;
+            margin-top: 21rem;
+        }
+    }
+    .tiempo-spec-sintetico{
+        background-image: url('../images/pasto-sintetico/tiempo-spec.jpg');
         background-size: 73%;
         background-position: 50% -14%;
         background-repeat: no-repeat;

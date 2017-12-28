@@ -8,7 +8,7 @@ var browserSync = require('browser-sync');
 
 /* Comprime imagenes */
 gulp.task('imagenes', () =>
-    gulp.src('source/images/*')
+    gulp.src('source/images/*/**')
         .pipe(imagemin())
         .pipe(gulp.dest('build/images'))
 );
