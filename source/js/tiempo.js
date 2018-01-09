@@ -187,3 +187,72 @@ $('.next-tiempo-player-sintetico').click(function () {
     $('.bajada-spec-left').addClass('animated fadeInLeft');
     $('.bajada-spec-right').addClass('animated fadeInRight');
 });
+/* VUELVE A JUGADOR TIEMPO SINTETICO */
+$('.prev-tiempo-spec-sintetico').click(function () {
+    $('.tiempo-spec-sintetico').removeClass('show').addClass('hide');
+    $('.tiempo-player').removeClass('hide').addClass('show');
+    $('.menu-tiempo-player-sintetico').addClass('show').removeClass('hide');
+    $('.menu-tiempo-spec-sintetico').addClass('hide').removeClass('show');
+    $('.logo-tiempo-player').addClass('animated fadeInDown');
+    $('.tiempo-player p').addClass('animated fadeInDown');
+    $('.subtitle').addClass('animated fadeInDown');
+    $('.tiempo-player h3').addClass('animated fadeInDown');
+});
+/** MUESTRA VIDEO HABILIDADES TIEMPO */
+$('.next-tiempo-spec-sintetico').click(function () {
+    $('.tiempo-spec-sintetico').removeClass('show').addClass('hide');
+    $('.menu-tiempo-spec-sintetico').removeClass('show').addClass('hide');
+    $('.tiempo-video').removeClass('hide').addClass('show');
+    $('.menu-tiempo-video-sintetico').removeClass('hide').addClass('show');
+    $('.tiempo-video h1').addClass('animated fadeInLeft');
+    $('.tiempo-logo-video').addClass('animated fadeInDown');
+    $('.tiempo-video p').addClass('animated fadeInDown');
+    $('.tiempo-video h3').addClass('animated fadeInDown');
+});
+/** VUELVE A ESPECIFICACIONES TIEMPO SINTETICO */
+$('.prev-tiempo-video-sintetico').click(function () {
+    $('.tiempo-spec').removeClass('hide').addClass('show');
+    $('.tiempo-video').removeClass('show').addClass('hide');
+    $('.menu-tiempo-spec-sintetico').removeClass('hide').addClass('show');
+    $('.menu-tiempo-video-sintetico').removeClass('show').addClass('hide');
+});
+/* MUESTRA TIEMPO SINTETICO VIDEO CON COUNTER */
+$('.next-tiempo-video-sintetico').click(function () {
+    $('.tiempo-timer').removeClass('hide').addClass('show');
+    $('.tiempo-video').removeClass('show').addClass('hide');
+    $('.tiempo-timer h1').addClass('animated fadeInLeft');
+    $('.tiempo-logo-video').addClass('animated fadeInDown');
+    $('.tiempo-timer h1').addClass('animated fadeInLeft');
+    $('.tiempo-logo-counter').addClass('animated fadeInDown');
+    $('.menu-tiempo-video-sintetico').removeClass('show').addClass('hide');
+    $('.menu-tiempo-counter-sintetico').removeClass('hide').addClass('show');
+});
+/** VUELVE A TIEMPO VIDEO */
+$('.prev-tiempo-counter-sintetico').click(function () {
+    $('.tiempo-timer').removeClass('show').addClass('hide');
+    $('.tiempo-video').removeClass('hide').addClass('show');
+    $('.menu-tiempo-video-sintetico').removeClass('hide').addClass('show');
+    $('.menu-tiempo-counter-sintetico').removeClass('show').addClass('hide');
+});
+/** MUESTRA FINAL TIEMPO SINTETICO */
+$('.next-tiempo-counter-sintetico').click(function () {
+    $('.tiempo-final-sintetico').addClass('show').removeClass('hide');
+    $('.tiempo-timer').removeClass('show').addClass('hide');
+    $('.menu-tiempo-final-sintetico').removeClass('hide').addClass('show');
+    $('.menu-tiempo-counter-sintetico').removeClass('show').addClass('hide');
+    $('.zapatilla-final').addClass('animated fadeInDown');
+    $('.logo-negro').addClass('animated fadeInUp');
+});
+/** VUELVE A TIEMPO SINTETICO COUNTER */
+$('.prev-tiempo-final-sintetico').click(function () {
+    $('.tiempo-timer').removeClass('hide').addClass('show');
+    $('.tiempo-final-sintetico').removeClass('show').addClass('hide');
+    $('.menu-tiempo-counter-sintetico').removeClass('hide').addClass('show');
+    $('.menu-tiempo-final-sintetico').removeClass('show').addClass('hide');
+});
+/** VUELVE A INICIO */
+$('.next-tiempo-final-sintetico').click(function () {
+    $('.intro').removeClass('hide').addClass('show');
+    $('.tiempo-final-sintetico').removeClass('show').addClass('hide');
+    $('.menu-tiempo-final-sintetico').removeClass('show').addClass('hide');
+});

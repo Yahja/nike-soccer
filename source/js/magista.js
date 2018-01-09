@@ -160,7 +160,7 @@ $('.next-magista-sintetico').click(function () {
 $('.prev-magista-sintetico').click(function () {
     $('.magista-sintetico').addClass('hide').removeClass('show');
     $('.menu-magista-home-sintetico').addClass('hide').removeClass('show');
-    $('.index').removeClass('hide').addClass('show');
+    $('.index-sintetico').removeClass('hide').addClass('show');
     $('.btn-mercurial-sintetico').addClass('animated fadeIn');
     $('.btn-hypervenom-sintetico').addClass('animated fadeIn');
     $('.btn-magista-sintetico').addClass('animated fadeIn');
@@ -188,4 +188,74 @@ $('.next-magista-player-sintetico').click(function () {
     $('.subt-spec').addClass('animated fadeInLeft');
     $('.bajada-spec-left').addClass('animated fadeInLeft');
     $('.bajada-spec-right').addClass('animated fadeInRight');
+});
+
+/* VUELVE A JUGADOR MAGISTA SINTETICO */
+$('.prev-magista-spec-sintetico').click(function () {
+    $('.magista-spec-sintetico').removeClass('show').addClass('hide');
+    $('.magista-player').removeClass('hide').addClass('show');
+    $('.menu-magista-player-sintetico').addClass('show').removeClass('hide');
+    $('.menu-magista-spec-sintetico').addClass('hide').removeClass('show');
+    $('.logo-magista-player').addClass('animated fadeInDown');
+    $('.magista-player p').addClass('animated fadeInDown');
+    $('.subtitle').addClass('animated fadeInDown');
+    $('.magista-player h3').addClass('animated fadeInDown');
+});
+/** MUESTRA VIDEO HABILIDADES MAGISTA SINTETICO */
+$('.next-magista-spec-sintetico').click(function () {
+    $('.magista-spec-sintetico').removeClass('show').addClass('hide');
+    $('.menu-magista-spec-sintetico').removeClass('show').addClass('hide');
+    $('.magista-video').removeClass('hide').addClass('show');
+    $('.menu-magista-video-sintetico').removeClass('hide').addClass('show');
+    $('.magista-video h1').addClass('animated fadeInLeft');
+    $('.magista-logo-video').addClass('animated fadeInDown');
+    $('.magista-video p').addClass('animated fadeInDown');
+    $('.magista-video h3').addClass('animated fadeInDown');
+});
+/** VUELVE A ESPECIFICACIONES MAGISTA SINTETICO */
+$('.prev-magista-video-sintetico').click(function () {
+    $('.magista-spec-sintetico').removeClass('hide').addClass('show');
+    $('.magista-video').removeClass('show').addClass('hide');
+    $('.menu-magista-spec-sintetico').removeClass('hide').addClass('show');
+    $('.menu-magista-video-sintetico').removeClass('show').addClass('hide');
+});
+/* MUESTRA MAGISTA SINTETICO VIDEO CON COUNTER */
+$('.next-magista-video-sintetico').click(function () {
+    $('.magista-timer').removeClass('hide').addClass('show');
+    $('.magista-video').removeClass('show').addClass('hide');
+    $('.magista-timer h1').addClass('animated fadeInLeft');
+    $('.magista-logo-video').addClass('animated fadeInDown');
+    $('.magista-timer h1').addClass('animated fadeInLeft');
+    $('.magista-logo-counter').addClass('animated fadeInDown');
+    $('.menu-magista-video-sintetico').removeClass('show').addClass('hide');
+    $('.menu-magista-counter-sintetico').removeClass('hide').addClass('show');
+});
+/** VUELVE A MAGISTA SINTETICO VIDEO */
+$('.prev-magista-counter-sintetico').click(function () {
+    $('.magista-timer').removeClass('show').addClass('hide');
+    $('.magista-video').removeClass('hide').addClass('show');
+    $('.menu-magista-video-sintetico').removeClass('hide').addClass('show');
+    $('.menu-magista-counter-sintetico').removeClass('show').addClass('hide');
+});
+/** MUESTRA FINAL MAGISTA SINTETICO */
+$('.next-magista-counter-sintetico').click(function () {
+    $('.magista-final-sintetico').addClass('show').removeClass('hide');
+    $('.magista-timer').removeClass('show').addClass('hide');
+    $('.menu-magista-final-sintetico').removeClass('hide').addClass('show');
+    $('.menu-magista-counter-sintetico').removeClass('show').addClass('hide');
+    $('.zapatilla-final').addClass('animated fadeInDown');
+    $('.logo-negro').addClass('animated fadeInUp');
+});
+/** VUELVE A MAGISTA SINTETICO COUNTER */
+$('.prev-magista-final-sintetico').click(function () {
+    $('.magista-timer').removeClass('hide').addClass('show');
+    $('.magista-final-sintetico').removeClass('show').addClass('hide');
+    $('.menu-magista-counter-sintetico').removeClass('hide').addClass('show');
+    $('.menu-magista-final-sintetico').removeClass('show').addClass('hide');
+});
+/** VUELVE A INICIO */
+$('.next-magista-final-sintetico').click(function () {
+    $('.intro').removeClass('hide').addClass('show');
+    $('.magista-final-sintetico').removeClass('show').addClass('hide');
+    $('.menu-magista-final-sintetico').removeClass('show').addClass('hide');
 });

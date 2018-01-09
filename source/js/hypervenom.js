@@ -130,7 +130,7 @@ $('.prev-hypervenom-final').click(function () {
     $('.menu-hypervenom-counter').removeClass('hide').addClass('show');
     $('.menu-hypervenom-final').removeClass('show').addClass('hide');
 });
-/** VUELVE A HYPERVENOM COUNTER */
+/** VUELVE A INICIO */
 $('.next-hypervenom-final').click(function () {
     $('.intro').removeClass('hide').addClass('show');
     $('.hypervenom-final').removeClass('show').addClass('hide');
@@ -177,7 +177,7 @@ $(".prev-hypervenom-player-sintetico").click(function () {
     $(".hypervenom-right").addClass("animated bounceInRight");
     $(".logo-hypervenom").addClass("animated bounceIn");
     $(".hypervenom-player").removeClass("show").addClass("hide");
-    $(".menu-hypervenom-player").removeClass("show").addClass("hide");
+    $(".menu-hypervenom-player-sintetico").removeClass("show").addClass("hide");
 });
 /* SIGUENTE EN HYPERVENOM PLAYER */
 $('.next-hypervenom-player-sintetico').click(function () {
@@ -190,4 +190,74 @@ $('.next-hypervenom-player-sintetico').click(function () {
     $('.subt-spec').addClass('animated fadeInLeft');
     $('.bajada-spec-left').addClass('animated fadeInLeft');
     $('.bajada-spec-right').addClass('animated fadeInRight');
+});
+/* VUELVE A JUGADOR HYPERVENOM */
+$('.prev-hypervenom-spec-sintetico').click(function () {
+    $('.hypervenom-spec-sintetico').removeClass('show').addClass('hide');
+    $('.hypervenom-player').removeClass('hide').addClass('show');
+    $('.menu-hypervenom-player-sintetico').addClass('show').removeClass('hide');
+    $('.menu-hypervenom-spec-sintetico').addClass('hide').removeClass('show');
+    $('.logo-hypervenom-player').addClass('animated fadeInDown');
+    $('.hypervenom-player p').addClass('animated fadeInDown');
+    $('.subtitle').addClass('animated fadeInDown');
+    $('.hypervenom-player h3').addClass('animated fadeInDown');
+});
+/** MUESTRA VIDEO HABILIDADES HYPERVENOM SINTETICO */
+$('.next-hypervenom-spec-sintetico').click(function () {
+    $('.hypervenom-spec-sintetico').removeClass('show').addClass('hide');
+    $('.menu-hypervenom-spec-sintetico').removeClass('show').addClass('hide');
+    $('.hypervenom-video').removeClass('hide').addClass('show');
+    $('.menu-hypervenom-video-sintetico').removeClass('hide').addClass('show');
+    $('.hypervenom-video h1').addClass('animated fadeInLeft');
+    $('.hypervenom-logo-video').addClass('animated fadeInDown');
+    $('.hypervenom-video p').addClass('animated fadeInDown');
+    $('.hypervenom-video h3').addClass('animated fadeInDown');
+});
+/** VUELVE A ESPECIFICACIONES HYPERVENOM SINTETICO */
+$('.prev-hypervenom-video-sintetico').click(function () {
+    $('.hypervenom-spec-sintetico').removeClass('hide').addClass('show');
+    $('.hypervenom-video').removeClass('show').addClass('hide');
+    $('.menu-hypervenom-spec-sintetico').removeClass('hide').addClass('show');
+    $('.menu-hypervenom-video-sintetico').removeClass('show').addClass('hide');
+});
+/* MUESTRA HYPERVENOM SINTETICO VIDEO CON COUNTER */
+$('.next-hypervenom-video-sintetico').click(function () {
+    $('.hypervenom-timer').removeClass('hide').addClass('show');
+    $('.hypervenom-video').removeClass('show').addClass('hide');
+    $('.hypervenom-timer h1').addClass('animated fadeInLeft');
+    $('.hypervenom-logo-video').addClass('animated fadeInDown');
+    $('.hypervenom-timer h1').addClass('animated fadeInLeft');
+    $('.hypervenom-logo-counter').addClass('animated fadeInDown');
+    $('.menu-hypervenom-video-sintetico').removeClass('show').addClass('hide');
+    $('.menu-hypervenom-counter-sintetico').removeClass('hide').addClass('show');
+});
+/** VUELVE A HYPERVENOM VIDEO */
+$('.prev-hypervenom-counter-sintetico').click(function () {
+    $('.hypervenom-timer').removeClass('show').addClass('hide');
+    $('.hypervenom-video').removeClass('hide').addClass('show');
+    $('.menu-hypervenom-video-sintetico').removeClass('hide').addClass('show');
+    $('.menu-hypervenom-counter-sintetico').removeClass('show').addClass('hide');
+});
+
+/** MUESTRA FINAL HYPERVENOM SINTETICO */
+$('.next-hypervenom-counter-sintetico').click(function () {
+    $('.hypervenom-final-sintetico').addClass('show').removeClass('hide');
+    $('.hypervenom-timer').removeClass('show').addClass('hide');
+    $('.menu-hypervenom-final-sintetico').removeClass('hide').addClass('show');
+    $('.menu-hypervenom-counter-sintetico').removeClass('show').addClass('hide');
+    $('.zapatilla-final').addClass('animated fadeInDown');
+    $('.logo-negro').addClass('animated fadeInUp');
+});
+/** VUELVE A HYPERVENOM SINTETICO COUNTER */
+$('.prev-hypervenom-final-sintetico').click(function () {
+    $('.hypervenom-timer').removeClass('hide').addClass('show');
+    $('.hypervenom-final-sintetico').removeClass('show').addClass('hide');
+    $('.menu-hypervenom-counter-sintetico').removeClass('hide').addClass('show');
+    $('.menu-hypervenom-final-sintetico').removeClass('show').addClass('hide');
+});
+/** VUELVE A INICIO */
+$('.next-hypervenom-final-sintetico').click(function () {
+    $('.intro').removeClass('hide').addClass('show');
+    $('.hypervenom-final-sintetico').removeClass('show').addClass('hide');
+    $('.menu-hypervenom-final-sintetico').removeClass('show').addClass('hide');
 });

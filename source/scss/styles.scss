@@ -20,7 +20,7 @@ body{
     background-color: $black;
     font-family: $nikefont;
     color: $white;
-    // overflow: hidden;
+    overflow: hidden;
     .no-padding{
         padding: 0px;
     }
@@ -28,9 +28,9 @@ body{
         background-color: $black;
         max-width: 2048px;
         width: 100%;
-        min-height: 576px;
+        min-height: 2160px;
         height: auto;
-        max-height: 576px;
+        // max-height: 576px;
         h1{
             color: $white;
             font-family: $nikefontBold;
@@ -123,7 +123,7 @@ body{
                 display: flex;
                 justify-content: space-around;
                 background-color: $white;
-                margin-top: 2rem;
+                margin-top: 0rem;
                 // padding-top: 0px;
                 h2{
                     font-size: 3em;
@@ -139,6 +139,11 @@ body{
                     font-family: Arial, Helvetica, sans-serif;
                 }
             }
+        }
+    }
+    .index{
+        .menu-silos{
+            background-position: 0% 132%;
         }
     }
     .menu-global{
@@ -211,9 +216,10 @@ body{
         }
         p{
             color: $black;
-            font-size: 3em;
-            margin-top: 1rem;
+            font-size: 2.5em;
+            margin-top: 2.5rem;
             line-height: 3rem;
+            margin-bottom: 0%;
         }
         span{
             color: $black;
@@ -257,6 +263,7 @@ body{
         }
         .bajada-spec-left, .bajada-spec-right{
             margin-bottom: 0px;
+            margin-top: 4rem;
         }
     }
     .mercurial-spec-sintetico{
@@ -296,6 +303,7 @@ body{
         }
         .bajada-spec-left, .bajada-spec-right{
             margin-bottom: 0px;
+            margin-top: 3rem;
         }
     }
     .mercurial-video{
@@ -345,6 +353,20 @@ body{
         height: 100%;
         background-image: url('../images/mercurial-jugador.jpg');
         background-repeat: no-repeat;
+        background-size: cover;
+        padding: 4rem 0px;
+        min-height: 576px;
+        .zapatilla-final{
+            margin-bottom: 2rem;
+        }
+    }
+    .mercurial-final-sintetico{
+        max-width: 2048px;
+        max-height: 576px;
+        height: 100%;
+        background-image: url('../images/mercurial-jugador.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
         padding: 4rem 0px;
         min-height: 576px;
         .zapatilla-final{
@@ -376,6 +398,7 @@ body{
             font-size: 2.5em;
             margin-top: 3rem;
             line-height: 3rem;
+            margin-bottom: 0%;
         }
         span{
             color: $black;
@@ -419,6 +442,7 @@ body{
         }
         .bajada-spec-left, .bajada-spec-right{
             margin-bottom: 0px;
+            margin-top: 3rem;
         }
     }
     .hypervenom-spec-sintetico{
@@ -458,6 +482,7 @@ body{
         }
         .bajada-spec-left, .bajada-spec-right{
             margin-bottom: 0px;
+            margin-top: 3rem;
         }
     }
     .hypervenom-video{
@@ -467,6 +492,7 @@ body{
         min-height: 576px;
         video{
             width: 100%;
+            margin-top: -3rem;
         }
         .hypervenom-logo-video{
             margin-bottom: 3rem;
@@ -516,6 +542,19 @@ body{
             margin-bottom: 2rem;
         }
     }
+    .hypervenom-final-sintetico{
+        max-width: 2048px;
+        max-height: 576px;
+        height: 100%;
+        background-image: url('../images/hypervenom-jugador.jpg');
+        background-repeat: no-repeat;
+        padding: 4rem 0px;
+        min-height: 576px;
+        background-size: cover;
+        .zapatilla-final{
+            margin-bottom: 2rem;
+        }
+    }
     /* MAGISTA */
     .magista-player{
         max-width: 2048px;
@@ -549,8 +588,8 @@ body{
     }
     .magista-spec{
         background-image: url('../images/magista-spec.jpg');
-        background-size: 73%;
-        background-position: 50% -14%;
+        background-size: 70%;
+        background-position: 50% -28%;
         background-repeat: no-repeat;
         max-height: 576px;
         height: 100%;
@@ -584,7 +623,7 @@ body{
         }
         .bajada-spec-left, .bajada-spec-right{
             margin-bottom: 0px;
-            margin-top: 10rem;
+            margin-top: 7.5rem;
         }
     }
     .magista-spec-sintetico{
@@ -624,7 +663,7 @@ body{
         }
         .bajada-spec-left, .bajada-spec-right{
             margin-bottom: 0px;
-            margin-top: 10rem;
+            margin-top: 8rem;
         }
     }
     .magista-video{
@@ -634,6 +673,7 @@ body{
         min-height: 576px;
         video{
             width: 100%;
+            margin-top: -3rem;
         }
         .magista-logo-video{
             margin-bottom: 3rem;
@@ -671,6 +711,19 @@ body{
         margin-top: 13rem;
     }
     .magista-final{
+        max-width: 2048px;
+        max-height: 576px;
+        height: 100%;
+        background-image: url('../images/magista-jugador.jpg');
+        background-repeat: no-repeat;
+        padding: 4rem 0px;
+        min-height: 576px;
+        background-size: cover;
+        .zapatilla-final{
+            margin-bottom: 2rem;
+        }
+    }
+    .magista-final-sintetico{
         max-width: 2048px;
         max-height: 576px;
         height: 100%;
@@ -751,7 +804,7 @@ body{
         }
         .bajada-spec-left, .bajada-spec-right{
             margin-bottom: 0px;
-            margin-top: 21rem;
+            margin-top: 18rem;
         }
     }
     .tiempo-spec-sintetico{
@@ -791,7 +844,7 @@ body{
         }
         .bajada-spec-left, .bajada-spec-right{
             margin-bottom: 0px;
-            margin-top: 21rem;
+            margin-top: 18rem;
         }
     }
     .tiempo-video{
@@ -801,6 +854,7 @@ body{
         min-height: 576px;
         video{
             width: 100%;
+            margin-top: -3rem;
         }
         .tiempo-logo-video{
             margin-bottom: 3rem;
@@ -838,6 +892,19 @@ body{
         margin-top: 13rem;
     }
     .tiempo-final{
+        max-width: 2048px;
+        max-height: 576px;
+        height: 100%;
+        background-image: url('../images/tiempo-jugador.jpg');
+        background-repeat: no-repeat;
+        padding: 4rem 0px;
+        min-height: 576px;
+        background-size: cover;
+        .zapatilla-final{
+            margin-bottom: 2rem;
+        }
+    }
+    .tiempo-final-sintetico{
         max-width: 2048px;
         max-height: 576px;
         height: 100%;

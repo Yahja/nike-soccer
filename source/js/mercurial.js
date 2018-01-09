@@ -199,7 +199,7 @@ $(".prev-mercurial-player-sintetico").click(function () {
     $(".mercurial-right").addClass("animated bounceInRight");
     $(".logo-mercurial").addClass("animated bounceIn");
     $(".mercurial-player").removeClass("show").addClass("hide");
-    $(".menu-mercurial-player").removeClass("show").addClass("hide");
+    $(".menu-mercurial-player-sintetico").removeClass("show").addClass("hide");
 });
 
 /* SIGUENTE EN MERCURIAL PLAYER SINTETICO */
@@ -207,7 +207,7 @@ $('.next-mercurial-player-sintetico').click(function () {
     $('.mercurial-player').removeClass('show').addClass('hide');
     $('.mercurial-spec-sintetico').removeClass('hide').addClass('show animated fadeIn');
     $('.menu-mercurial-player-sintetico').addClass('hide').removeClass('show');
-    $('.menu-mercurial-spec').addClass('show').removeClass('hide');
+    $('.menu-mercurial-spec-sintetico').addClass('show').removeClass('hide');
     $('.logo-spec').addClass('animated zoomIn');
     $('.titulo-spec').addClass('animated fadeInDown');
     $('.subt-spec').addClass('animated fadeInLeft');
@@ -264,4 +264,26 @@ $('.prev-mercurial-counter-sintetico').click(function () {
     $('.menu-mercurial-counter').removeClass('show').addClass('hide');
     $('.menu-mercurial-video-sintetico').removeClass('hide').addClass('show');
     $('.menu-mercurial-counter-sintetico').removeClass('show').addClass('hide');
+});
+/** VUELVE A MERCURIAL SINTETICO COUNTER */
+$('.prev-mercurial-final-sintetico').click(function () {
+    $('.mercurial-timer').removeClass('hide').addClass('show');
+    $('.mercurial-final-sintetico').removeClass('show').addClass('hide');
+    $('.menu-mercurial-counter-sintetico').removeClass('hide').addClass('show');
+    $('.menu-mercurial-final-sintetico').removeClass('show').addClass('hide');
+});
+/** MUESTRA FINAL MERCURIAL */
+$('.next-mercurial-counter-sintetico').click(function () {
+    $('.mercurial-final-sintetico').addClass('show').removeClass('hide');
+    $('.mercurial-timer').removeClass('show').addClass('hide');
+    $('.menu-mercurial-final-sintetico').removeClass('hide').addClass('show');
+    $('.menu-mercurial-counter-sintetico').removeClass('show').addClass('hide');
+    $('.zapatilla-final').addClass('animated fadeInDown');
+    $('.logo-negro').addClass('animated fadeInUp');
+});
+/** DE MERCURIAL VUELVE A INICIO */
+$('.next-mercurial-final-sintetico').click(function () {
+    $('.intro').removeClass('hide').addClass('show');
+    $('.mercurial-final-sintetico').removeClass('show').addClass('hide');
+    $('.menu-mercurial-final-sintetico').removeClass('show').addClass('hide');
 });
